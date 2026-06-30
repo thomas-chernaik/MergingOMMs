@@ -2,7 +2,7 @@
 # This title is used for the browser tab and the link-preview card (see the
 # "description" and "thumbnail" keys below). The title displayed at the top of
 # the page is set separately, on the <Header> component in the body.
-title: Academic Project Page Template
+title: CSMCOMM
 
 # The color theme of the page. Defaults to "device" (the preference set in the user's brower or operating system). Setting this to "light" or "dark" will override the user's preference. This is useful if your figures only look good in one theme.
 theme: device
@@ -11,7 +11,7 @@ theme: device
 favicon: favicon.svg
 
 # These keys are optional. If a link to your project page is in a Google search result, text message, or social media post, it will often appear as a "link preview card" based on its title, description, favicon, and thumbnail. After you publish your page, you can double check that these previews look right using [this tool](https://linkpreview.xyz/)
-description: Simple project page template for your research paper, built with Astro and Tailwind
+description: A compression method for Opacity Micromaps
 thumbnail: screenshot-light.png
 ---
 
@@ -36,22 +36,18 @@ import dogsTrue from "./assets/dogs-true.png"
 import dogsMsillm from "@/assets/dogs-msillm.jpg"
 
 <Header
-  title="Academic Project Page Template"
-  conference="Conference Name"
+  title="Common Subtree Merging Compressed Opacity Micromaps"
+  conference="High Performance Graphics 2026"
   authors={[
     {
-      name: "Roman Hauksson",
-      url: "https://roman.technology",
-      institution: "University of Texas at Dallas",
-      notes: ["*", "†"],
+      name: "Thomas Chernaik",
+      institution: "University of Leeds",
+      
     },
-    { name: "Author Two", institution: "Institution Two", notes: ["*", "†"] },
-    { name: "Author Three", institution: "Institution Three", notes: ["*"] },
-    { name: "Author Four", institution: "Institution Four" },
+    { name: "Jaina Modisett", institution: "University of Leeds" },
+    { name: "Markus Billeter", institution: "University of Leeds"},
   ]}
   notes={[
-    { symbol: "*", text: "author note one" },
-    { symbol: "†", text: "author note two" },
   ]}
   links={[
     { name: "Paper", url: "https://github.com/RomanHauksson/academic-project-astro-template", icon: "ri:file-pdf-2-line" },
